@@ -128,18 +128,125 @@
 
 // Q-14
 
-var a = new Date();
-var b = a.getMonth();
-var c = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-var d = 410;
-var e = 24; 
-var f = d*e;
-var g = f+500;
-document.write("<h1>K-Electric Bill</h1>"+"<br />");
-document.write("Company name : ABC Company"+"<br />");
-document.write("Month : "+c[b]+"<br />");
-document.write("Number of units: "+d+"<br />");
-document.write("Charges per units : "+e+"<br />");
-document.write("Charges per units : "+e+"<br />"+"<br />");
-document.write("Net amount payable (with in due date) : "+f+"<br />");
-document.write("Gross amount payable (after due date) : "+g+"<br />");
+// var a = new Date();
+// var b = a.getMonth();
+// var c = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+// var d = 410;
+// var e = 24; 
+// var f = d*e;
+// var g = f+500;
+// document.write("<h1>K-Electric Bill</h1>"+"<br />");
+// document.write("Company name : ABC Company"+"<br />");
+// document.write("Month : "+c[b]+"<br />");
+// document.write("Number of units: "+d+"<br />");
+// document.write("Charges per units : "+e+"<br />");
+// document.write("Charges per units : "+e+"<br />"+"<br />");
+// document.write("Net amount payable (with in due date) : "+f+"<br />");
+// document.write("Gross amount payable (after due date) : "+g+"<br />");
+
+
+// Chapter-35-38
+
+// Q-1
+
+// function date(){
+//     var a = new Date();
+//     document.write(a)
+// }
+
+// date();
+
+
+// Q-2
+ 
+// function userName(){
+//     var firstName = prompt("Enter your First name");
+//     var lastName = prompt("Enter your last name");
+//     var fullName = firstName + " " + lastName;
+//     alert("Assalam u Alaikum " + fullName);
+// }
+
+// userName();
+
+// Q-3
+
+// function add(){
+//         var firstNum = +prompt("Enter First Number");
+//         var lastNum = +prompt("Enter last Number");
+//         var sum = firstNum+lastNum;
+//         return sum;
+// }
+
+// alert(add());
+
+// Q-4
+
+// function compute(firstNumber,secondNumber,operation){
+//    if(operation === '+'){
+//     alert(firstNumber + secondNumber);
+// }else if(operation === '-'){
+//     alert(firstNumber - secondNumber);
+// }else if(operation === '*'){
+//     alert(firstNumber * secondNumber);
+// }else if(operation === '/'){
+//     alert(firstNumber / secondNumber);
+// }else if(operation === '%'){
+//     alert(firstNumber % secondNumber);
+// }
+// }
+
+// compute(+prompt("Enter the First Number"),+prompt("Enter the First Number"),prompt("What you want"))
+
+
+// Q-5
+
+// function  square(a){
+//     alert(a*a);
+// }
+
+// square(prompt("Enter the number"));
+
+
+// Q-6(Wrong)
+
+// var a = 10;             
+// var b = ;
+// alert(b);
+// //     for (var i = 0; i <=a.length; i++){
+// //         alert
+// //     }
+
+// //     }
+
+
+
+// Q-7
+ 
+// function counting(){
+//     var a = +prompt("Enter the First Number")
+//     var b = +prompt("Enter the Last Number")
+//     for(var i = a; i<=b; i++ ){
+//     document.write(i + "<br />")
+// }
+// }
+
+// counting();
+
+// Q-8
+
+// var base = +prompt("ENter the base");
+// var perpendicular = +prompt("ENter the perpendicular");
+// var hypotenuse = (base*base)+(perpendicular*perpendicular);
+// function hypoSquare(){
+// var a = hypotenuse;
+// var b = Math.sqrt(a)
+// alert(b);
+// }
+
+// hypoSquare();
+
+// Q-9
+
+
+
+
