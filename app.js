@@ -248,5 +248,84 @@
 // Q-9
 
 
+// var a = +prompt("Enter width");
+// function area(width,height){
+// document.write("Area of rectangle is "+width*height);
+// }
+
+// area(a,+prompt("Enter the height"));
 
 
+// Q-10(Wrong);
+// var a = prompt("Enter word");
+// var b = 
+
+// Q-11
+
+
+//     function uppercase(x){
+//   var a = x.split(' ');
+//   var b = [];
+    
+//   for(var i = 0; i < a.length; i++){
+//       b.push(a[i].charAt(0).toUpperCase()+a[i].slice(1));
+//   }
+//   return b.join(' ');
+// }
+// document.write("Example String : "+"the quick brown fox" + " <br />");
+// document.write("Example Output : "+uppercase("the quick brown fox"));
+
+
+// Q-12
+
+// function longestWord(a){
+//   var b = a.match(/\w[a-z]{0,}/gi);
+//   var c = b[0];
+
+//   for(var i = 1 ; i < b.length ; i++)
+//   {
+//     if(c.length < b[i].length)
+//     {
+//     c = b[i];
+//     } 
+//   }
+//   return c;
+// }
+// console.log(longestWord('Web Development Tutorial'));
+
+// Q-13
+
+// functioncount(para, letter) 
+// {
+//  var a = 0;
+//  for (var i = 0; i < para.length; i++){
+//     if (para.charAt(i) == letter) {
+//       a += 1;
+//       }
+//   }
+//   return a;
+// }
+// alert(count(prompt("ENter first"),prompt("Enter second")));
+
+
+
+// Q-14
+
+
+// function calcCircumference(){
+//     var radius = 30;
+//     circumference = 2*(3.14)*(radius);
+//     document.write("The circumference is "+circumference+"<br />");
+
+// }
+
+
+// function calcArea(){
+//     var r = 30;
+//     var area = (3.14)*(r*r);
+//     document.write("The area is "+area);
+// }
+
+
+// calcCircumference();
+// calcArea();
