@@ -329,3 +329,173 @@
 
 // calcCircumference();
 // calcArea();
+
+// Chaptet-38-42
+
+// Q-1
+
+// function custom(){
+//     var a = +prompt("Enter first number");
+// var b = +prompt("Enter the power");
+// var c =  Math.pow(a,b);
+// document.write(c)
+// }
+
+// custom();
+
+// Q-2
+
+// function leap(){
+// var a = prompt("ENter full year");
+// if(((a%4 == 0) && (a % 100 != 0))||(a % 400 == 0)){
+// alert("Leap year")
+// }else{
+// alert("not leap year") 
+// }
+// }
+
+// leap();
+
+
+// Q_3
+
+// var a = +prompt("Enter the length of first side");
+// var b = +prompt("Enter the length of second side");
+// var c = +prompt("Enter the length of third side");
+// function section(){
+//     var s = (a+b+c)/2;
+//     return s;
+// }
+
+// var d = section();
+// function area(){
+//     var e = (d)*(d-a)*(d-b)*(d-c);
+//     alert(e)
+// }
+
+// area();
+
+// Q-4
+
+// var a = +prompt("Enter the marks of first subject");
+// var b = +prompt("Enter the marks of second subject");
+// var c = +prompt("Enter the marks of third subject");
+// function avg(){
+//     var d = (a+b+c)/3;
+//     return d;
+// }
+
+// var e = avg();
+
+// function perc(){
+//     var f = ((a+b+c)/300)*100;
+//     return f;
+// }
+
+// var g = perc();
+
+// function result(){
+//     document.write("Average marks is : " + e + "<br />")
+//     document.write("Percentage is : " + g + "%")
+// }
+
+// result();
+
+// Q-5
+
+
+// var a = "My name is mughees";
+// function indexOn(x){
+// for(var i = 0 ; i <= a.length ; i++){
+//     if(a[i] === x){
+//         return i;
+//     }
+// }
+// }
+// var d = indexOn("n");
+// console.log(d)
+
+
+// Q-6
+
+
+// var a = "Today is tuesday";
+// var b = a.replace(/a/g,"").replace(/e/g,"").replace(/i/g,"").replace(/o/g,"").replace(/u/g,"")
+// document.write("With vowels : "+a+"<br />");
+// document.write("Without vowels : "+b)
+
+// Q-7
+
+// var a = "Pleases read this application and give me gratuity";
+// function twoVowels() {
+//     for (var i = 0; i <= a.length; i++) {
+//         if (a.charAt(i) === "a" || a.charAt(i) === "e" || a.charAt(i) === "i" || a.charAt(i) === "o" || a.charAt(i) === "u") {
+//             if (a.charAt(i + 1) === "a" || a.charAt(i + 1) === "e" || a.charAt(i + 1) === "i" || a.charAt(i + 1) === "o" || a.charAt(i + 1) === "u") {
+//                 document.write(a.charAt(i) + a.charAt(i + 1)+",");
+//             }
+//         }
+//     }
+// }
+
+// document.write(a + "<br /> Occurences are : ");
+// twoVowels();
+
+
+// Q-8
+
+// var km = +prompt("Enter distance in km");
+// function metre(){
+//     var m = km*1000;
+//     return m;
+// }
+// var a = metre();
+
+// function centimetre(){
+//     var cm = a*100;
+//     return cm;
+// }
+
+// var b = centimetre();
+
+// function feet(){
+//     var f = b*30.48;
+//     return f;
+// }
+
+// var c = feet();
+
+// function inch(){
+//     var i = c*12;
+//     return i;
+// }
+
+// var d = inch();
+
+// function main(){
+//     document.write("Metres : "+a + "<br />")
+//     document.write("Centimetres : "+b + "<br />")
+//     document.write("Feets : "+c + "<br />")
+//     document.write("Inches : "+d + "<br />")
+// }
+
+// main();
+
+// Q-9
+
+// var a = +prompt("Enter the working hours");
+// if(a > 40){
+//     var b = a - 40;
+//     var c = b*12;
+//     document.write("The payment of overtime is : " + c);
+// }else{
+//     document.write("There is no overtime payment")
+// }
+
+// Q-10
+
+// var Amount = +prompt("Enter withdrawn amount");
+// document.write("You will have notes of 100 is : " , Math.floor(Amount / 100)+"<br />");
+// document.write("You will have notes of 50 is : " , Math.floor((Amount % 100) / 50)+"<br />");
+// document.write("You will have notes of 10 is : " , Math.floor(((Amount % 100) % 50) / 10));
+
+
